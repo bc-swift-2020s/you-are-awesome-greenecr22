@@ -19,11 +19,13 @@ class ViewController: UIViewController {
     @IBAction func message1ButtonPressed(_ sender: UIButton) {
         messageLabel.text = "You Are Awesome!"
         print("First message button has been pressed")
+        messageLabel.textAlignment = .left
     }
     
     @IBAction func message2ButtonPressed(_ sender: UIButton) {
         messageLabel.text = "You Are Great!"
         print("Second message button has been pressed")
+        messageLabel.textAlignment = .right
     }
 }
 
